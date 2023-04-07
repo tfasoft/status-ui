@@ -1,0 +1,23 @@
+@import url('https://fonts.googleapis.com/css2?family=Boogaloo&family=Vazirmatn:wght@100;200;300;400;500;600;700;800;900&display=swap');
+
+@keyframes blink {
+  0% {
+    opacity: 0.5;
+  }
+  25% {
+    opacity: 0.75;
+  }
+  50% {
+    opacity: 1;
+  }
+  75% {
+    opacity: 0.75;
+  }
+  100% {
+    opacity: 0.5;
+  }
+}
+
+.blinking {
+  animation: blink 1s infinite;
+}
