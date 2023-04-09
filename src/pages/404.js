@@ -16,7 +16,8 @@ const NotFound = () => {
     >
       <Box>
         <Typography
-          fontFamily="Boogaloo"
+          fontWeight="bold"
+          color="primary"
           fontSize={80}
           gutterBottom
         >
