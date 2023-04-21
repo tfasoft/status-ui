@@ -10,7 +10,7 @@ const theme = createTheme({
       default: "#f1f1f1",
     },
     primary: {
-      main: colors.blue[600],
+      main: "#000",
     },
   },
   typography: {
